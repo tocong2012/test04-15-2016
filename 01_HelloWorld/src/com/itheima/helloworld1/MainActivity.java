@@ -8,8 +8,8 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 
 	static{
-		//加载打包完毕的so类库
-		System.loadLibrary("hello11111");
+		//鍔犺浇鎵撳寘瀹屾瘯鐨剆o绫诲簱
+		System.loadLibrary("hello11111aaaa");
 	}
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
     	Toast.makeText(this, helloFromC(), 0).show();
     }
     
-    //定义一个本地方法，方法体由c语言实现
+    //瀹氫箟涓�涓湰鍦版柟娉曪紝鏂规硶浣撶敱c璇█瀹炵幇
     public native String helloFromC();
     
 }
