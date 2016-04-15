@@ -9,7 +9,7 @@ public class MainActivity extends Activity {
 
 	static{
 		//加载打包完毕的so类库
-		System.loadLibrary("tocongfetch");
+		System.loadLibrary("tocongfetch1");
 	}
     @Override
     protected void onCreate(Bundle savedInstanceState) {
