@@ -1,4 +1,4 @@
-package com.itheima.helloworld1;
+﻿package com.itheima.helloworld1;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -9,7 +9,7 @@ public class MainActivity extends Activity {
 
 	static{
 		//加载打包完毕的so类库
-		System.loadLibrary("hello11111aaaa");
+		System.loadLibrary("tocong");
 	}
     @Override
     protected void onCreate(Bundle savedInstanceState) {
